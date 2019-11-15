@@ -1,0 +1,18 @@
+<!--miniprogram/pages/addRemind/addRemind.wxml-->
+<text>miniprogram/pages/addRemind/addRemind.wxml</text>
+
+<view>
+  <text>标题</text>
+  <input class="weui-input" placeholder="请输入标题" bindinput="funInputTitle" />
+</view>
+
+<view>
+  <text>内容</text>
+  <input class="weui-input" placeholder="请输入内容" bindinput="funInputContent" />
+</view>
+
+<!-- todo：时间输入 -->
+
+<view>
+  <button bindtap="funAddRemind">确定</button>
+</view>

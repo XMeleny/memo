@@ -1,0 +1,17 @@
+<!--miniprogram/pages/checkRemind/checkRemind.wxml-->
+<text>miniprogram/pages/checkRemind/checkRemind.wxml</text>
+
+<view wx:for="{{reminds}}">
+<text>{{item.title}}:  </text>
+<text>{{item.content}}</text>
+</view>
+
+<view>
+<navigator url="../addRemind/addRemind" open-type="navigate" class="uploader-text">
+      <text>添加备忘</text>
+</navigator>
+</view>
+
+
+
+
